@@ -1,3 +1,7 @@
+#NOTICE
+There was an issue while uploading this git, so the contents of my-frontend are uploaded separately.
+I have created src and public folders in my-frontend and the contents or files of those folders had to be uploaded manually and separately, sorry for this incovenience.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

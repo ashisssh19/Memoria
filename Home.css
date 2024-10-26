@@ -1,0 +1,83 @@
+/* Home.css */
+
+/* Header/Navbar styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px; /* Increased padding */
+    background-color: rgba(51, 51, 51, 0.5); /* Transparent background with reduced opacity */
+    color: transparent; /* Hide text */
+    font-size: 20px; /* Increased font size */
+}
+
+.logo img {
+    width: 100px; /* Increased logo size */
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px; /* Increased margin between links */
+}
+
+/* Body styles */
+.body-container {
+    position: relative;
+}
+
+/* Background photo styles */
+.background-photo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('blg.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Send the background behind other content */
+}
+
+/* About us box styles */
+.about-us-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 250px;
+    margin-bottom: 210px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(8, 8, 8, 0.616); /* Adjust transparency as needed */
+    padding: 100px 50px;
+    border-radius: 20px; /* Decreased border radius */
+    width: 50%; /* Decreased width */
+    text-align: center; /* Center-align text */
+    color: #fff; /* Text color */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: transform 0.3s ease; /* Add transition effect */
+}
+
+
+
+.about-us-box h2 {
+    margin-bottom: 20px; /* Decreased margin */
+    font-size: 18px; /* Increased font size */
+    text-align: center;
+}
+
+.about-us-box p {
+    font-size: 18px; /* Decreased font size */
+}
+
+/* Add this at the end of your CSS file */
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
